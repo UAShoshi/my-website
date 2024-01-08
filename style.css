@@ -1,0 +1,26 @@
+/* header style  */
+.header{
+  background-image: url('../images/resources/Banner\ Image.png');
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  width: 1320px;
+  height: 600px;
+  margin: 50px 140px;
+  color: #070211, #07021100;
+}
+.banner-greeting{
+  color: #ffffff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 233px;
+  margin-bottom: 0;
+}
+.banner-title{
+  color: #ffffff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
