@@ -1,12 +1,15 @@
-/* header style  */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  /* header style  */
 .header{
   background-image: url('../images/resources/Banner\ Image.png');
   background-repeat: no-repeat;
-  border-radius: 16px;
   width: 1320px;
   height: 600px;
-  margin: 50px 140px;
-  color: #070211, #07021100;
+  margin: 50px auto;
 }
 .banner-greeting{
   color: #ffffff;
@@ -15,6 +18,7 @@
   font-weight: 400;
   padding-top: 233px;
   margin-bottom: 0;
+  padding-bottom: 16px;
 }
 .banner-title{
   color: #ffffff;
@@ -23,4 +27,39 @@
   font-weight: 900;
   margin-top: 5px;
   margin-bottom: 20px;
+}
+/* section style  */
+.section{
+  padding: 0px 400px;
+  align-items: center;
+}
+.section .profile-pic{
+  margin-top: 48px;
+}
+.section-title{
+  color: #f30808;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+  padding-bottom: 93px;
+  padding-top: 120px;
+}
+.section-description{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #f30808;
+  line-height: 16px;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+.section-greeting{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 48px;
+}
+.profile-pic{
 }
