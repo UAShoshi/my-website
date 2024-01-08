@@ -69,6 +69,7 @@
   width: 1320px;
   height: 600px;
   margin: 50px auto;
+  margin-top: 120px;
 }
 .about-title{
   color: #ffffff;
@@ -103,4 +104,41 @@ justify-content: space-between;
 .side-img{
   padding-right: 138px;
   padding-top: 68.11px;
+}
+/* portfolio style  */
+.portfolio{
+  width: 1320px;
+  height: 600px;
+  margin: 50px auto;
+}
+.portfolio-title{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #f30808;
+  margin-top: 120px;
+}
+.portfolio-description{
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.portfolio-info{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #757575;
+}
+.portfolio-container{
+  display: grid;
+  margin: 50px auto;
+  gap: 24px;
+  width: 1320px;
+  height: 600px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.info:hover{
+  cursor: pointer;
+  transform: scale(1.2);
 }
