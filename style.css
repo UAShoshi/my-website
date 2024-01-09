@@ -105,6 +105,12 @@ justify-content: space-between;
   padding-right: 138px;
   padding-top: 68.11px;
 }
+/* special section style  */
+.special-container{
+  display: flex;
+justify-content: space-between;
+}
+
 /* portfolio style  */
 .portfolio{
   width: 1320px;
@@ -144,17 +150,24 @@ justify-content: space-between;
   transform: scale(1.2);
 }
 /* msg style  */
+.Subscribe{
+  margin-top:666px;
+}
 .box{
-  background-color: #FFF8F3;
+  margin-top: 336px;
   width: 1320px;
   height: 600px;
   margin: 50px auto;
-  margin-top: 120px;
+  background-color: #FFF8F3;
+  height: 616px;
+  width: 1320px;
+
 }
 .msg-img{
   display: block;
   margin: auto;
   padding-top: 80px;
+  
 }
 .msg-title{
   text-align: center;
@@ -162,6 +175,7 @@ justify-content: space-between;
   font-weight: 900;
   text-transform: capitalize;
   padding-top: 40px;
+ 
 }
 .msg-description{
   text-align: center;
@@ -171,11 +185,31 @@ justify-content: space-between;
   line-height: 32px;
   padding-top: 22px;
   color: #757575;
+  width: 896px;
+  margin-left: 212px;
 }
 .child_form{
-  border-radius: 50%;
-  width: 648px;
-  height: 72px;
-  padding-top: 48px;
-  text-align: center;
+  display: flex;
+  margin-left: 336px;
 }
+#form_list{
+  border-radius: 50px 0px 0px 50px;
+  padding: 30px;
+  width: 500px;
+  height: 72px;
+  border: none;
+}
+.btn-item{
+  border-radius: 0px 50px 50px 0px;
+  background-color: #f30808;
+  color: #ffffff;
+  width: 200px;
+  height: 72px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: none;
+}
+
